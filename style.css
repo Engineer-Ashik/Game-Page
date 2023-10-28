@@ -41,7 +41,9 @@ nav li a{
 }
 
 .follow {
-    background-color: rgb(180, 180, 180);
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }
 
 .nav-links {
