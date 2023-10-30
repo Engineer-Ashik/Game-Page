@@ -10,32 +10,34 @@ header {
     background-color: #ebe0e0;
     padding: 50px 240px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-title{
+.nav-title {
     font-size: 3rem;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
 }
 
-nav  li {
+nav li {
     list-style: none;
     margin-left: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a{
+nav li a {
 
     text-decoration: none;
     color: #3C354F;
 }
+
 .pink {
     color: #FF42A5;
 }
@@ -48,4 +50,45 @@ nav li a{
 
 .nav-links {
     align-items: space-between;
+}
+
+/* banner-play-section */
+.banner-play-play {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: #F948B2;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+main li {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.paragraph {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.pink-button {
+    color:#FFF;
+    background-color: #FF42A5;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    width: 156px;
+    height: 65px;
+    padding: 40px 21px;
 }
