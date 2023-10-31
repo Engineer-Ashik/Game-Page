@@ -60,25 +60,27 @@ main li {
     font-weight: 500;
 }
 
-.banner-two{
+.banner-two {
     max-width: 1920px;
     display: flex;
-    width: 1920px;
     height: 600px;
 }
 
-.banner-two img{
+.banner-two img {
     width: 100%;
     padding: 55px 240px;
 }
 
-.banner-we{
+.banner-we {
     text-align: right;
-    margin:right;
+    margin: right;
 }
 
 .banner-title {
-    color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -90,25 +92,35 @@ main li {
 }
 
 .pink-button {
-    color:#FFF;
+    color: #FFF;
     background-color: #FF42A5;
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 3rem;
-    width: 156px;
-    height: 65px;
     cursor: pointer;
+    padding: 20px 40px;
 }
 
 .blue-button {
-    color:#FFF;
+    color: #FFF;
     background-color: #4EC5F7;
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 3rem;
-    width: 156px;
-    height: 65px;
     cursor: pointer;
+    padding: 21px 40px;
+}
+
+.paragraph-our {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.paragraph-unleash {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 /*
