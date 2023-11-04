@@ -48,10 +48,6 @@ nav li a {
     background: rgba(11, 2, 35, 0.10);
 }
 
-.nav-links {
-    align-items: space-between;
-}
-
 /* banner-section */
 main li {
     color: #534C64;
@@ -131,3 +127,28 @@ main li {
     font-weight: 600;
 }
 */
+
+/*--------Media-Query--------*/
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 0px;
+    }
+    nav{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        padding: 40px;
+    }
+
+    nav li {
+        margin-left: 0px;
+    }
+}
