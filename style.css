@@ -11,6 +11,10 @@ header {
     padding: 50px 240px;
 }
 
+main {
+    padding: 50px 240px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -63,13 +67,18 @@ main li {
 }
 
 .banner-two img {
-    width: 100%;
-    padding: 55px 240px;
+    width: 868px;
+    /*padding: 55px 240px; */
 }
 
 .banner-we {
     text-align: right;
     margin: right;
+    padding: 95px 240px 95px 52px;
+}
+
+.banner-we p {
+    width: 520px;
 }
 
 .banner-title {
@@ -85,6 +94,7 @@ main li {
     color: #534C64;
     font-size: 1.125rem;
     font-weight: 400;
+    line-height: 30px;
 }
 
 .pink-button {
@@ -118,6 +128,36 @@ main li {
     font-size: 2rem;
     font-weight: 700;
 }
+
+/*---------Online-Section---------*/
+
+    .Online-Games>h2 {
+        text-align: center;
+    }
+
+    .Online-Games>p {
+        text-align: center;
+    }
+
+    .black-title {
+        color:#0B0223;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .Online-image {
+        display: flex;
+        gap: 24px;
+    }
+
+    .Online-image img {
+        width: 342px;
+        height: 400px;
+    }
+
+    .img-caption{
+        width: 342px;
+    }
 
 /*
 .banner-play-play {
@@ -219,4 +259,8 @@ main li {
         margin: 30px;
         padding: 40px;
     }
+
+
+
+
 }
