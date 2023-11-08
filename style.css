@@ -19,6 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1920px;
 }
 
 .nav-title {
@@ -64,6 +65,7 @@ main li {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
     max-width: 1920px;
     display: flex;
+    justify-content: space-between;
     width:  calc(100% + 34px);
     height: 600px;
 }
@@ -75,8 +77,6 @@ main li {
 
 .banner-we {
     text-align: right;
-    margin: right;
-    padding: 95px 240px 95px 52px;
 }
 
 .banner-we p {
@@ -153,6 +153,7 @@ main li {
 
     .Online-image {
         display: flex;
+        justify-content: space-between;
         gap: 24px;
     }
 
