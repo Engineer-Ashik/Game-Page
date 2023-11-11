@@ -174,20 +174,27 @@ main li {
     background: rgb(241, 229, 239);
     width: calc(100% + 34px);
     margin: 120px 0px;
+    padding-bottom: 60px;
+}
+
+.play-para {
+    padding-left: 450px;
 }
 
 .play-para h2 {
     text-align: right;
-    width: 340px;
+    width: 345px;
     height: 180px;
-    padding-bottom: 24px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
 }
 
 .play-para p {
-    text-align: center;
+    text-align: right;
     width: 350px;
     height: 90px;
-    padding-top: 24px;
+    
 }
 
 .play-img-b {
