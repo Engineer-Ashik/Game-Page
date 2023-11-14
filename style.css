@@ -26,7 +26,7 @@ nav {
     font-size: 3rem;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
 }
 
@@ -72,7 +72,6 @@ main li {
 
 .banner-two img {
     width: 868px;
-    /*padding: 55px 240px; */
 }
 
 .banner-we {
@@ -123,6 +122,7 @@ main li {
     color: #534C64;
     font-size: 1.5rem;
     font-weight: 500;
+    text-align: right;
 }
 
 .paragraph-unleash {
@@ -137,11 +137,8 @@ main li {
     width: calc(100% + 34px);
 }
 
-.Online-Games>h2 {
-    text-align: center;
-}
-
-.Online-Games>p {
+.Online-Games h2,
+p {
     text-align: center;
 }
 
@@ -164,7 +161,23 @@ main li {
 
 .img-caption {
     width: 342px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
 }
+
+/*
+.btn {
+    position: relative;
+    right: 230px;
+    bottom: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+*/
 
 /*---------Play_Instantly-Section---------*/
 .Play-Instantly {
@@ -194,7 +207,7 @@ main li {
     text-align: right;
     width: 350px;
     height: 90px;
-    
+
 }
 
 .play-img-b {
@@ -210,14 +223,59 @@ main li {
     height: 650px;
 }
 
-/*
-.banner-play-play {
-    color: #0B0223;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
+/*---------Play_Instantly-Section---------*/
+
+.Careers {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    display: flex;
+    width: calc(100% + 34px);
+    height: 821px;
+    /*margin-left:-240px;*/
+    
 }
-*/
+
+.careers-list {
+    display: flex;
+    gap: 100px;
+    margin-left: -40px;
+}
+
+.Careers h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.Careers p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.careers-list li {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.white-button {
+    color: #FF42A5;
+    background-color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    cursor: pointer;
+    padding: 20px 40px;
+}
+
+.careers-doc {
+    padding-left: 240px;
+}
+
 
 /*-------###-Media-Query Small device-###-------*/
 
