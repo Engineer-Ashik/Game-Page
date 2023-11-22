@@ -298,7 +298,10 @@ p {
     background: #FFF;
 }
 
-
+/*footer section*/
+footer {
+    background: #0B0223;
+}
 /*-------###-Media-Query Small device-###-------*/
 
 /*-----------NavBar-----------*/
