@@ -26,7 +26,13 @@ nav {
     font-size: 3rem;
 }
 
-nav > ul {
+.nav-title>i {
+    color: #FF42A5;
+    width: 86.041px;
+    height: 40px;
+}
+
+nav>ul {
     display: flex;
 }
 
@@ -231,7 +237,6 @@ p {
     width: calc(100% + 34px);
     height: 821px;
     /*margin-left:-240px;*/
-    
 }
 
 .careers-list {
@@ -274,6 +279,23 @@ p {
 
 .careers-doc {
     padding-left: 240px;
+}
+
+/*---------Logo-Button-Section---------*/
+
+.logo-button {
+    display: flex;
+    max-width: calc(100% + 34px);
+    height: 427px;
+    background: #534C64;
+    justify-content: space-between;
+}
+
+.logo-button button {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
 }
 
 
