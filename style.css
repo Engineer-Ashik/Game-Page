@@ -302,6 +302,37 @@ p {
 footer {
     background: #0B0223;
 }
+
+.footer-head {
+    text-align: center;
+}
+
+.footer-color {
+    color: #FFF;
+}
+
+.footer-headlines {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.footer-headlines h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-logos {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.footer-logos i {
+    width: 40px;
+    height: 40px;
+}
 /*-------###-Media-Query Small device-###-------*/
 
 /*-----------NavBar-----------*/
