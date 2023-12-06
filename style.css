@@ -297,16 +297,23 @@ p {
     height: 427px;
     background: #605c68;
     gap: 40px;    
+    align-items: center;
 }
 
 .logo-button button {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 16px;
     width: 243px;
     height: 80px;
     border-radius: 50px;
     background: #FFF;
 }
 
+button:hover {
+    border-color: #F948B2;
+    color: #F948B2;
+}
 
 /*footer section*/
 footer {
