@@ -12,7 +12,7 @@ header {
 }
 
 main {
-    padding: 50px 240px;
+    padding: 120px 240px;
 }
 
 nav {
@@ -141,6 +141,7 @@ main li {
 .Online-Games {
     background: rgb(241, 229, 239);
     width: calc(100% + 34px);
+    margin: 120px 0px;
 }
 
 .Online-Games h2,
@@ -188,40 +189,39 @@ p {
 /*---------Play_Instantly-Section---------*/
 .Play-Instantly {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background: rgb(241, 229, 239);
     width: calc(100% + 34px);
     margin: 120px 0px;
-    padding-bottom: 60px;
+    padding-bottom: 66px;
 }
 
 .play-para {
-    padding-left: 450px;
+    padding-left: 120px;
 }
 
 .play-para h2 {
     text-align: right;
     width: 345px;
-    height: 180px;
     font-size: 48px;
     font-weight: 700;
-    line-height: 60px;
 }
 
 .play-para p {
     text-align: right;
     width: 350px;
-    height: 90px;
+}
 
+.play-img {
+    display: flex;
 }
 
 .play-img-b {
     width: 319px;
     height: 366px;
     position: relative;
-    top: 70px;
-    left: 190px;
+    top: 360px;
+    left: 180px;
 }
 
 .play-img-a {
@@ -229,35 +229,40 @@ p {
     height: 650px;
 }
 
-/*---------Play_Instantly-Section---------*/
-
+/*---------Careers-Section---------*/
 .Careers {
+    display: flex;
     background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-    display: flex;
     width: calc(100% + 34px);
+    align-items: center;
+    margin: 120px 0px;
+}
+
+.careers-img {
+    width: 850px;
     height: 821px;
-    /*margin-left:-240px;*/
 }
 
-.careers-list {
-    display: flex;
-    gap: 100px;
-    margin-left: -40px;
-}
-
-.Careers h2 {
+.careers-doc h2 {
     color: #FFF;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    margin-left: 40px;
 }
 
-.Careers p {
+.careers-doc p {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+    margin-left: 40px;
+}
+
+.careers-list {
+    display: flex;
+    gap: 130px;
 }
 
 .careers-list li {
@@ -268,35 +273,40 @@ p {
 }
 
 .white-button {
-    color: #FF42A5;
-    background-color: #FFF;
-    font-size: 1.25rem;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 20px;
     font-weight: 600;
-    border-radius: 3rem;
-    cursor: pointer;
-    padding: 20px 40px;
+    text-transform: uppercase;
+    color: #FF42A5;
+    margin-left: 40px;
 }
 
-.careers-doc {
-    padding-left: 240px;
-}
 
 /*---------Logo-Button-Section---------*/
 
 .logo-button {
     display: flex;
-    max-width: calc(100% + 34px);
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100% + 34px);
     height: 427px;
-    background: #534C64;
-    justify-content: space-between;
+    background: #605c68;
+    gap: 40px;    
 }
 
 .logo-button button {
+    text-align: center;
     width: 243px;
     height: 80px;
     border-radius: 50px;
     background: #FFF;
 }
+
 
 /*footer section*/
 footer {
@@ -329,10 +339,12 @@ footer {
     gap: 40px;
     justify-content: center;
 }
+
 .footer-logos i {
     width: 40px;
     height: 40px;
 }
+
 /*-------###-Media-Query Small device-###-------*/
 
 /*-----------NavBar-----------*/
