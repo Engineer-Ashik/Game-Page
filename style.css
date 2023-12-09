@@ -32,7 +32,7 @@ nav {
     height: 40px;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
 }
 
@@ -59,17 +59,17 @@ nav li a {
     background: rgba(11, 2, 35, 0.10);
 }
 
-/* banner-section */
-main li {
+/*--------- banner-section ---------*/
+
+/*main li {
     color: #534C64;
     list-style: none;
     font-size: 1.25rem;
     font-weight: 500;
-}
+}*/
 
 .banner-two {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-    max-width: 1920px;
     display: flex;
     justify-content: space-between;
     width: calc(100% + 34px);
@@ -391,20 +391,29 @@ footer {
 
     /*-----------Banner-----------*/
 
+    main{
+        padding: 0px;
+    }
+
     .banner-two {
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-left: -10px;
+        margin-bottom: 250px;
     }
 
     .banner-two img {
         width: 100%;
-        padding: 0px;
     }
 
-    .banner-we {
+    .banner-we, .paragraph-our {
         text-align: center;
-        margin: 30px;
-        padding: 30px;
     }
 
+    .banner-we p, .paragraph-unleash {
+        width: 100%;
+        margin-left: -10px;
+    }
 }
